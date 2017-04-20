@@ -1,0 +1,45 @@
+body {
+  background-color: goldenrod;
+  background-position: center;
+  background-size: cover;
+}
+
+li {
+  display: inline-block;
+  float: right;
+  padding: 5px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+    color: #111;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main_container {
+  opacity: 0.8;
+  background-image: url(resort.jpg);
+  background-size: cover;
+  border: 5px solid black;
+  height: 400px;
+}
+.main_container p {
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Arial Black";
+  color: #f2f2f2;
+  text-align: center;
+}
+.navbar {
+  font-family:"Palatino Linotype", Georgia, Serif;
+
+  /*border: 5px solid red;*/
+
+}
